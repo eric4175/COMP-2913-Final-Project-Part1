@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+}
+
+body{
+  background-color: #34495E;
+}
+
+.strike {
+    text-decoration: line-through;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100px;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+    padding: 0.5em;
+    font-size: 0.75em;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+  }
+
+  form input[type="text"] {
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+    padding: 0.5em;
+    font-size: 0.875rem;
+  }
+  
+  h1{
+    margin: 0;
+  }
